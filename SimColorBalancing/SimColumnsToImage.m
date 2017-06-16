@@ -1,0 +1,1 @@
+function [imageFormat] = SimColumnsToImage(columnFormat,height,width,numberPlanes)% [imageFormat] = SimColumnsToImage(columnFormat,height,width,numberPlanes)% % Reshape column format back to image.%% 2/09/07  dhb  Wrote it.% Copyright (c) 2007 David Brainard.   All rights reserved.% ConvertimageFormat = reshape(columnFormat',height,width,numberPlanes);
